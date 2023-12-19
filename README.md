@@ -1,39 +1,49 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# RACING LINE
 
-Welcome,
+# UXD
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Purpose of the Project
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### What is worth doing?
 
-## Codeanywhere Reminders
+I have decided to create a website base on a go karting company creating thier first website.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### What am I aiming to creating with a good experiance?
 
-`python3 -m http.server`
+I am aiming to create a website that feels up-to-date with mobile first design at mind which will include a Home / Gallery / Book Now page. This websiite will be easy to navigate and to be able to easily book a go-karting slot for the customer.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+This website is aimed to bring an online presence that will increase customers, showcase the facility with pricing being visible.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## User Stories - 
 
-`http_server`
+* As a customer, I would like to be able to visit and navigate through the website.
+* As a customer, I would like to be able to easily book online.
+* As a customer, I would like to be able to see your prices.
+* As a customer, I would like to know details about the track.
+* As a customer, I would like to be able to locate where the track is.
+* As a customer, I would like to be able to contact you by email / phone / social media.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Steps to be taken - 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+1. Research websites.
+2. Sketch up designs.
+2. Create wireframe designs.
+4. Find mixed content that works together (Colour Scheme, Font Family, Images).
+5. Find how the mixed content will work together (Format, Purpose, Size).
+6. Design Website.
+7. Create Website.
+8. Test Website.
+9. Deploy Website.
+  
+## Features  
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Which features do I want to use in my design?
 
-To log into the Heroku toolbelt CLI:
+The features be looking add a header with a navigation bar which will be followed by a section and then footer with links to social media websites. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The website will include Home page with text and details about the track followed by a Gallery with a selection of images then a Book Now page with prices and a easy to book now form with a map and a where to find us, opening times and contact us details.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Structure For The Project
 
----
+### How will the information be structured and logically grouped?
 
-Happy coding!
