@@ -4,15 +4,11 @@
 
 ## Purpose of the Project
 
-### What is worth doing?
-
 I have decided to create a website base on a go karting company creating thier first website.
 
-### What am I aiming to creating with a good experiance?
+I am aiming to create a website that feels up-to-date with mobile first design at mind which will include a Home / Gallery / Book Now page. This websiite will be easy to navigate and to be able to easily book a go-karting slot for the customers.
 
-I am aiming to create a website that feels up-to-date with mobile first design at mind which will include a Home / Gallery / Book Now page. This websiite will be easy to navigate and to be able to easily book a go-karting slot for the customer.
-
-This website is aimed to bring an online presence that will increase customers, showcase the facility with pricing being visible.
+This website is aimed to bring an online presence that will increase customers, showcase the facility.
 
 ## User Stories - 
 
@@ -35,15 +31,41 @@ This website is aimed to bring an online presence that will increase customers, 
 8. Test Website.
 9. Deploy Website.
   
-## Features  
+## Features 
 
-### Which features do I want to use in my design?
+The website will include features such as Home page with text and details about the track followed by a Gallery with a selection of images then a Book Now page with prices and a easy to book now form with a map and a where to find us, opening times and contact us details and lastly a footer with links to social media websites which will enclose icons and you will be able to go through these pages with a navigation bar at the top of the page.
 
-The features be looking add a header with a navigation bar which will be followed by a section and then footer with links to social media websites. 
+## Future Features
 
-The website will include Home page with text and details about the track followed by a Gallery with a selection of images then a Book Now page with prices and a easy to book now form with a map and a where to find us, opening times and contact us details.
+* Login Option.
+* Leaderboard Page.
+* Memebership Page.
+* Compition Page.
+* Food and Drinks Page.
+* Add Video Content (Live stream of the track).
+* Downloadable Health and Safety Form.
+* Options To Buy Equitment.
+* Testimonials section
+* Dark Mode
 
-## Structure For The Project
+## Typography and Color Scheme
 
-### How will the information be structured and logically grouped?
+The site will use the font of ROBOTO throughout the website as it has many different styles.
+
+The Color Scheme will include 3 main HEX colours -
+  
+* #008AE7 - Light Blue
+* #01375E - Dark Blue
+* #FDFDFD - White
+
+With 2 additional HEX colours -
+
+* #464545 - Dark Gray
+* #BB0202 - Red
+
+These colours work well together and will make the website clear and visually appealing.
+
+
+## Wireframes
+
 
