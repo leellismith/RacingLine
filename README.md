@@ -68,4 +68,11 @@ These colours work well together and will make the website clear and visually ap
 
 ## Wireframes
 
+### Mobile Wireframe
+![Home Page Wireframe](assets/images/wireframes/mobilewireframe1.png)
+![Alt text](assets/images/wireframes/mobilewireframe2.png)
+![Alt text](assets/images/wireframes/mobilewireframe3.png)
 
+### Tablet Wireframe
+
+![Home Page Wireframe](assets/images/wireframes/tabletwireframe1.png)
