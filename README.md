@@ -10,7 +10,7 @@ I am aiming to create a website that feels up-to-date with mobile first design a
 
 This website is aimed to bring an online presence that will increase customers, showcase the facility.
 
-## User Stories - 
+## User Stories -
 
 * As a customer, I would like to be able to visit and navigate through the website.
 * As a customer, I would like to be able to easily book online.
@@ -19,11 +19,11 @@ This website is aimed to bring an online presence that will increase customers, 
 * As a customer, I would like to be able to locate where the track is.
 * As a customer, I would like to be able to contact you by email / phone / social media.
 
-### Steps to be taken - 
+### Steps to be taken -
 
 1. Research websites.
 2. Sketch up designs.
-2. Create wireframe designs.
+3. Create wireframe designs.
 4. Find mixed content that works together (Colour Scheme, Font Family, Images).
 5. Find how the mixed content will work together (Format, Purpose, Size).
 6. Design Website.
@@ -31,7 +31,7 @@ This website is aimed to bring an online presence that will increase customers, 
 8. Test Website.
 9. Deploy Website.
   
-## Features 
+## Features
 
 The website will include features such as Home page with text and details about the track followed by a Gallery with a selection of images then a Book Now page with prices and a easy to book now form with a map and a where to find us, opening times and contact us details and lastly a footer with links to social media websites which will enclose icons and you will be able to go through these pages with a navigation bar at the top of the page.
 
@@ -65,10 +65,10 @@ With 2 additional HEX colours -
 
 These colours work well together and will make the website clear and visually appealing.
 
-
 ## Wireframes
 
 ### Mobile Wireframe
+
 ![Mobile Wireframe](assets/images/wireframes/mobilewireframe.png)
 
 ### Tablet Wireframe
@@ -78,7 +78,6 @@ These colours work well together and will make the website clear and visually ap
 ### Desktop Wireframe
 
 ![Desktop Wireframes](assets/images/wireframes/desktopwireframe.png)
-
 
 ## Technology
 

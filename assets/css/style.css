@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/*-------------------------------------- Font*/
+
+.nav-color {
+    
+    color: #008ae7;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.title-color {
+    color: #008ae7;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.section-header{
+    color: #008ae7;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+div p {
+    color: #FDFDFD;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+/*-------------------------------------- BG Colours */
+
+.bg-colour {
+    background-color: #01375e;
+}
+
+
+/*-------------------------------------- Postioning */
+
+
+
+/*-------------------------------------- Images */
+
+.home-image {
+    background: url("../images/alexander-andrews-17qgMrxcvGs-unsplash.jpg");
+    width: 100%;
+    height: 190px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
