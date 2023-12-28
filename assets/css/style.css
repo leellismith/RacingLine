@@ -26,26 +26,32 @@
 div p {
     color: #FDFDFD;
     font-size: 12px;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    margin: 10px 15px 10px 15px;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
-
-
+.footer-sizing {
+    font-size: 18px;
+    margin: 0px
+    
+}
 /*-------------------------------------- BG Colours */
 
 .bg-colour {
     background-color: #01375e;
 }
 
+.book-button-bg {
+    background-color: #BB0202;
+}
 
-/*-------------------------------------- Postioning */
-
-
+.footer-bg {
+    background-color: #008ae7;
+    height: 60px;
+}
 
 /*-------------------------------------- Images */
 
@@ -56,4 +62,45 @@ div p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.track-image {
+    background: url("../images/uavwright-productions-vdoFJJgL24Q-unsplash.jpg");
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-------------------------------------- book button */
+
+.book-button {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+}
+
+.book-button p {
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+/*-------------------------------------- footer */
+
+footer {
+    color: #FDFDFD;
+    margin: 0;
+}
+
+.socials-placement {
+    padding-top: 5px;
+}
+
+.icon-colour {
+    color: #FDFDFD;
+}
+
+.list-inline-item {
+    padding: 0;
 }
