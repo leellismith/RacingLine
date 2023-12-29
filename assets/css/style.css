@@ -2,6 +2,10 @@
 
 /*-------------------------------------- Font*/
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .nav-color {
     
     color: #008ae7;
@@ -34,10 +38,17 @@ div p {
 }
 
 .footer-sizing {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px
-    
 }
+
+.track {
+    color: #FDFDFD;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
 /*-------------------------------------- BG Colours */
 
 .bg-colour {
@@ -71,20 +82,73 @@ div p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+
+/*-------------------------------------- Track Details */
+
+.track-box-postion {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.track-details-box-1 {
+    background-color: rgba(210, 215, 211, 0.1);
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+
+.track-details-box-2 {
+    background-color: rgba(210, 215, 211, 0.1);
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.track-details-box-3 {
+    background-color: rgba(210, 215, 211, 0.1);
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.track-info {
+    color: #FDFDFD;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    bottom: 25px;
+    font-weight: 400;
+}
+
 
 /*-------------------------------------- book button */
 
 .book-button {
     width: 100%;
-    height: 30px;
+    height: 50px;
     margin: 0;
 }
 
 .book-button p {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 2px;
+    font-weight: 300;
 }
+
+.button-view {
+    margin-top: 5px;
+    --bs-btn-padding-x: 70px;
+}
+
+
 
 /*-------------------------------------- footer */
 

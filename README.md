@@ -81,6 +81,10 @@ These colours work well together and will make the website clear and visually ap
 
 ## Technology
 
+Used bootstrap (nav and button)
+font awesome for icon
+google fonts
+
 ## Testing
 
 ### Code Validation
@@ -98,3 +102,11 @@ These colours work well together and will make the website clear and visually ap
 ### Via Github Pages
 
 ## Credits
+
+Images used on home page are taken from (https://unsplash.com/)
+![First Picture](assets/images/alexander-andrews-17qgMrxcvGs-unsplash.jpg)
+![Second Picture](assets/images/uavwright-productions-vdoFJJgL24Q-unsplash.jpg)
+
+Navbar taken from (https://getbootstrap.com/docs/5.3/components/navbar/)
+
+Botton taken from (https://getbootstrap.com/docs/5.3/components/buttons/)
