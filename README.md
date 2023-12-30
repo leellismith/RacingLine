@@ -106,6 +106,11 @@ google fonts
 Images used on home page are taken from (https://unsplash.com/)
 ![First Picture](assets/images/alexander-andrews-17qgMrxcvGs-unsplash.jpg)
 ![Second Picture](assets/images/uavwright-productions-vdoFJJgL24Q-unsplash.jpg)
+![Gallery First Picture](assets/images/appic-nCrQ8sMa0c8-unsplash.jpg)
+![Gallery Second Picture](assets/images/nicolas-peyrol-cWT6sI20RdU-unsplash.jpg)
+Image used from (https://www.pexels.com)
+![Gallery Third Picture](assets/images/pexels-markie-mad-14194446.jpg)
+
 
 Navbar taken from (https://getbootstrap.com/docs/5.3/components/navbar/)
 
