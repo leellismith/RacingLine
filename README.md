@@ -119,3 +119,5 @@ Botton taken from (https://getbootstrap.com/docs/5.3/components/buttons/)
 
 ## Notes
 I wanted to remove the orange border when the input field was selected and found out how to do it on (https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)
+
+I wanted to add a label input where you could select an amount for people booking (<https://getbootstrap.com/docs/5.3/forms/overview/>)

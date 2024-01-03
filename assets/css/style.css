@@ -266,15 +266,45 @@ footer {
     font-weight: 400;
 }
 
+/*-------------------------------------- form*/
+
+form {
+    padding-left: 2vh;
+}
+
 label {
     color: #FDFDFD;
 }
 
-input {
-    background-color: #fdfdfd00;
+
+input#adults {
+    width: 7vh;
+}
+
+.form-control {
+    padding: 0;
+    color: #FDFDFD;
+    background-color: #FDFDFD00;
+}
+
+.form-select {
+    padding: 0;
+    color: #FDFDFD;
+    background-color: #FDFDFD00;
+}
+
+label {
     color: #fdfdfd;
-    border: solid;
-    outline: none;
+}
+
+.form-sizing {
+    width: 55%;
+    text-transform: none;
+    padding-left: 5px;
+}
+
+.form-label {
+    margin-bottom: 0;
 }
 
 /*-------------------------------------- Media*/

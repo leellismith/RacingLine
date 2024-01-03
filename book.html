@@ -61,10 +61,44 @@
                 <h2>Booking Details</h2>
             </div>
             <form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="sname">Surname:</label><br>
-                <input type="text" id="sname" name="sname">
+                <div class="">
+                    <label for="fname" class="form-label form-font">First Name:</label>
+                    <input type="text" class="form-control form-sizing" id="fname" placeholder="Enter First Name Here">
+                </div>
+                <div class="">
+                    <label for="lname" class="form-label">Last Name:</label>
+                    <input type="text" class="form-control form-sizing" id="lname" placeholder="Enter Last Name Here">
+                </div>
+                <div class="">
+                    <label for="email" class="form-label">Email address:</label>
+                    <input type="email" class="form-control form-sizing" id="email" placeholder="Enter Email Here">
+                </div>
+                <label for="number" class="form-label">Number Of Participants:</label>
+                <select class="form-select form-sizing" aria-label="true" id="number">
+                    <option selected>Participants:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <div>
+                <label for="date" class="form-label">Date:</label>
+                <input type="date" class="form-control  form-sizing" id="date" placeholder="Pick Date Here">
+                </div>
+                <label for="date" class="form-label">Available Times:</label>
+                <select class="form-select form-sizing" aria-label="true" id="date">
+                    <option selected>Pick Your Slot:</option>
+                    <option value="9:00">9:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="18:00">18:00</option>
+                </select>
             </form>
         </div>
 
