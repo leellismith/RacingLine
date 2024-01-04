@@ -283,22 +283,20 @@ input#adults {
 
 .form-control {
     padding: 0;
-    color: #FDFDFD;
+    color: #FDFDFD99;
     background-color: #FDFDFD00;
+    text-transform: uppercase;
+    --bs-secondary-color: #fdfdfd99;
 }
 
 .form-select {
     padding: 0;
-    color: #FDFDFD;
+    color: #FDFDFD99;
     background-color: #FDFDFD00;
 }
 
-label {
-    color: #fdfdfd;
-}
-
 .form-sizing {
-    width: 55%;
+    width: 45%;
     text-transform: none;
     padding-left: 5px;
 }
@@ -307,5 +305,25 @@ label {
     margin-bottom: 0;
 }
 
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input#date {
+    text-transform: uppercase;
+}
+
+.btn-style {
+    --bs-btn-color: #fdfdfd;
+    --bs-btn-bg: #008ae7;
+    --bs-btn-border-color: #fdfdfd;
+    --bs-btn-hover-color: #fdfdfd99;
+    text-transform: uppercase;
+}
+
+.btn-size {
+    width: 45%;
+    margin-top: 1.5vh;
+}
 /*-------------------------------------- Media*/
 

@@ -60,9 +60,9 @@
             <div class="text-center uppercase booking-title">
                 <h2>Booking Details</h2>
             </div>
-            <form>
+            <form method="POST" action="https://formdump.codeinstitute.net/">
                 <div class="">
-                    <label for="fname" class="form-label form-font">First Name:</label>
+                    <label for="fname" class="form-label">First Name:</label>
                     <input type="text" class="form-control form-sizing" id="fname" placeholder="Enter First Name Here">
                 </div>
                 <div class="">
@@ -70,10 +70,10 @@
                     <input type="text" class="form-control form-sizing" id="lname" placeholder="Enter Last Name Here">
                 </div>
                 <div class="">
-                    <label for="email" class="form-label">Email address:</label>
+                    <label for="email" class="form-label">Email Address:</label>
                     <input type="email" class="form-control form-sizing" id="email" placeholder="Enter Email Here">
                 </div>
-                <label for="number" class="form-label">Number Of Participants:</label>
+                <label for="number" class="form-label">Number of Drivers:</label>
                 <select class="form-select form-sizing" aria-label="true" id="number">
                     <option selected>Participants:</option>
                     <option value="1">1</option>
@@ -99,6 +99,7 @@
                     <option value="16:00">16:00</option>
                     <option value="18:00">18:00</option>
                 </select>
+                <input class="btn btn-primary btn-style btn-size" type="submit" value="Book">
             </form>
         </div>
 
