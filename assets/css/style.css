@@ -13,9 +13,18 @@ p {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     margin: 0 0 5px 0;
 }
+
+h5 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.5vh;
+}
+
+
 
 .nav-color {
     
@@ -58,6 +67,11 @@ div p {
     padding: 10px;
 }
 
+.findus {
+    color: #fdfdfd;
+}
+
+
 
 /*-------------------------------------- BG Colours */
 
@@ -72,6 +86,18 @@ div p {
 .footer-bg {
     background-color: #008ae7;
     height: 60px;
+}
+
+.findus-bg {
+    background-color: #01375e;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.findus-details-bg {
+    background-color: #01375e;
 }
 
 /*-------------------------------------- Images */
@@ -129,6 +155,16 @@ div p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.findus-image {
+    background: url("../images/Wheretofindusmap.png");
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 /*-------------------------------------- Track Details */
 
@@ -241,7 +277,7 @@ footer {
 
 .book-header {
     color: #FDFDFD;
-
+    padding-top: 0.3rem;
 }
 
 .book-bg-size {
@@ -324,6 +360,21 @@ input#date {
 .btn-size {
     width: 45%;
     margin-top: 1.5vh;
+}
+
+/*-------------------------------------- Find Us*/
+
+.findus h4 {
+    margin: 0;
+}
+
+.findus-spacing {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.email-spacing {
+    margin-bottom: 1.5vh;
 }
 /*-------------------------------------- Media*/
 
