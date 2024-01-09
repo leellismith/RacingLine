@@ -29,27 +29,28 @@ h5 {
 .nav-color {
     
     color: #008ae7;
-    font-size: 18px;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 .title-color {
     color: #008ae7;
-    font-size: 30px;
+    font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
 .section-header{
     color: #008ae7;
-    font-size: 20px;
+    font-size: 1.75rem;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div p {
     color: #FDFDFD;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 .uppercase {
@@ -63,7 +64,7 @@ div p {
 
 .track {
     color: #FDFDFD;
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 10px;
 }
 
@@ -108,6 +109,7 @@ div p {
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center 40%;
 }
 
 .track-image {
@@ -117,12 +119,15 @@ div p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .gallery-image-1 {
     background: url("../images/appic-nCrQ8sMa0c8-unsplash.jpg");
     width: 100%;
-    height: 400px;
+    height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +136,7 @@ div p {
 .gallery-image-2 {
     background: url("../images/nicolas-peyrol-cWT6sI20RdU-unsplash.jpg");
     width: 100%;
-    height: 400px;
+    height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +145,7 @@ div p {
 .gallery-image-3 {
     background: url("../images/pexels-markie-mad-14194446.jpg");
     width: 100%;
-    height: 400px;
+    height: 40vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,26 +173,21 @@ div p {
 /*-------------------------------------- Track Details */
 
 .box-spacing {
-    
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1vh;
 }
 
 .track-details-box-1 {
     background-color: rgba(210, 215, 211, 0.1);
-    width: 120px;
+    width: 130px;
     height: 90px;
-    
 }
 
-.track-details-box-2 {
-    
-}
-
-.track-details-box-3 {
-    
-}
-
-.track-info {
-
+.track-box-details {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 
@@ -249,9 +249,16 @@ footer {
 /*-------------------------------------- Gallery*/
 
 .gallery-style {
-    color: #FDFDFD;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery-title {
+    color: #fdfdfd;
+    padding: 10px;
 }
 
 /*-------------------------------------- Book Now Page*/
@@ -291,6 +298,7 @@ form {
 
 label {
     color: #FDFDFD;
+    font-size: 1.1rem;
 }
 
 
@@ -319,7 +327,7 @@ input#adults {
 }
 
 .form-label {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 ::-webkit-calendar-picker-indicator {
@@ -358,4 +366,39 @@ input#date {
     margin-bottom: 1.5vh;
 }
 /*-------------------------------------- Media*/
+
+@media only screen and (min-width: 768px) {
+    .gallery-image-1 {
+        height: 60vh;
+        background-position: center 60%;
+    }
+    .gallery-image-2 {
+        height: 60vh;
+    }
+    .gallery-image-3 {
+        height: 60vh;
+        background-position: center 20%;
+    }
+    .btn-size {
+        width: 30%;
+    }
+    .form-sizing {
+        width: 30%;
+    }
+    .book-image {
+        height: 60vh;
+    }
+    .form-label {
+        margin: 1.5vh 0 0 0;
+    }
+    form {
+        margin-top: 5vh;
+    }
+    .btn-size {
+        margin-top: 3vh;
+    }
+    label {
+        font-size: 1.2rem;
+    }
+}
 
