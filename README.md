@@ -10,7 +10,7 @@ I am aiming to create a website that feels up-to-date with mobile first design a
 
 This website is aimed to bring an online presence that will increase customers, showcase the facility.
 
-## User Stories -
+## User Stories 
 
 * As a customer, I would like to be able to visit and navigate through the website.
 * As a customer, I would like to be able to easily book online.
@@ -19,7 +19,7 @@ This website is aimed to bring an online presence that will increase customers, 
 * As a customer, I would like to be able to locate where the track is.
 * As a customer, I would like to be able to contact you by email / phone / social media.
 
-### Steps to be taken -
+### Steps to be taken
 
 1. Research websites.
 2. Sketch up designs.
@@ -33,7 +33,54 @@ This website is aimed to bring an online presence that will increase customers, 
   
 ## Features
 
-The website will include features such as Home page with text and details about the track followed by a Gallery with a selection of images then a Book Now page with prices and a easy to book now form with a map and a where to find us, opening times and contact us details and lastly a footer with links to social media websites which will enclose icons and you will be able to go through these pages with a navigation bar at the top of the page.
+* __Navigation Bar__
+
+    
+      The Navigation Bar would located at the top on the page and will have 3 links to the Home page, Gallery and Booking page. Also the page logo will be a link to the home page from any page visited.
+        
+
+ * __Home Page Image__
+
+       The home page image which was selected shows the enjoyment and competitiveness of karting.
+
+* __First Paragraph__
+
+      The first paragraph follows straight after the home image this paragraph is short and snapping but will get the user excited.
+
+* __Track Image__
+
+      The Track image will then follow, this is for the user to get a visual on the track and build on the excitment.
+
+* __Track Details__
+
+      Added on top on the track image there is be a title of track details and at the bottom of the image will be 3 boxes which will include small snappy sentences explaining track distance, amount of turns and speed of the karts.
+
+* __Book Button link__
+
+      The Track image and track details will then be followed by a Book Now button which will send the user straight to the booking page.
+
+* __Footer__
+
+      The footer of the page will include links to social media websites
+
+* __Gallery Page__
+
+      The gallery page will have 3 images which will give more information about the track while showing off the different turns and excitement of the track and will have the book now button showing after the 3rd image.
+
+* __Book Now Page__
+
+      The Book Now page will start off with another paragraph will will increased excited in booking a season.
+
+* __Booking Form__
+
+      The booking form will have a more focus images of the track but will keep excitment up while completed the booking information.
+      
+      This will be followed by a Form on top of the image which we will require First name, Last Name, Email, Number of Drivers, date, time and submited button.
+
+* __Where to Find us__
+
+      After the booking form there will be a where to find us section and this will show where we are on the map and also have the address, opening times, phone number and email address to be easily contacted will any questions.
+
 
 ## Future Features
 
@@ -67,17 +114,30 @@ These colours work well together and will make the website clear and visually ap
 
 ## Wireframes
 
+All wireframes were made using [Figma](https://www.figma.com/)
+
+----
+
 ### Mobile Wireframe
 
 ![Mobile Wireframe](assets/images/wireframes/mobilewireframe.png)
+
+
+---
 
 ### Tablet Wireframe
 
 ![Tablet Wireframes](assets/images/wireframes/tabletwireframe.png)
 
+
+---
+
 ### Desktop Wireframe
 
 ![Desktop Wireframes](assets/images/wireframes/desktopwireframe.png)
+
+
+---
 
 ## Technology
 
