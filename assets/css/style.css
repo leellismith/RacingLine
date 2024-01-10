@@ -27,11 +27,11 @@ h5 {
 
 
 .nav-color {
-    
     color: #008ae7;
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    --bs-nav-link-hover-color: #e75100;
 }
 
 .title-color {
@@ -39,6 +39,7 @@ h5 {
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    --bs-navbar-brand-hover-color: #e75100;
 }
 
 .section-header{
@@ -58,8 +59,12 @@ div p {
 }
 
 .footer-sizing {
-    font-size: 16px;
+    font-size: 1.2rem;
     margin: 0px
+}
+
+i:hover {
+    color: #e75100;
 }
 
 .track {
@@ -86,7 +91,7 @@ div p {
 
 .footer-bg {
     background-color: #008ae7;
-    height: 60px;
+    height: 7vh;
 }
 
 .findus-bg {
@@ -110,6 +115,25 @@ div p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 40%;
+
+    animation-name: home-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.home-image-box {
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+@keyframes home-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .track-image {
@@ -168,6 +192,9 @@ div p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*-------------------------------------- Nav Bar */
+
 
 
 /*-------------------------------------- Track Details */
@@ -234,6 +261,7 @@ footer {
 
 .icon-colour {
     color: #FDFDFD;
+    font-size: 1.2rem;
 }
 
 .list-inline-item {
@@ -244,7 +272,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
-
 
 /*-------------------------------------- Gallery*/
 
@@ -399,6 +426,20 @@ input#date {
     }
     label {
         font-size: 1.2rem;
+    }
+    .button-view {
+        margin: 0.7vh 0 0.7vh 0;;
+        font-size: 1.2rem;
+    }
+    .book-button {
+        height: 5vh;
+    }
+    .footer-sizing {
+        font-size: 1.5rem;
+    }
+    .navbar-expand-md .navbar-collapse {
+        position: absolute;
+        right: 2rem;
     }
 }
 
