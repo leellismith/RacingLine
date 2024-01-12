@@ -395,6 +395,15 @@ input#date {
 /*-------------------------------------- Media*/
 
 @media only screen and (min-width: 768px) {
+    .home-image {
+        height: 60vh;
+    }
+    .home-image-box {
+        height: 60vh;
+    }
+    .track-image {
+        height: 60vh;
+    }
     .gallery-image-1 {
         height: 60vh;
         background-position: center 60%;

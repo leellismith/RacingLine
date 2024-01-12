@@ -35,51 +35,50 @@ This website is aimed to bring an online presence that will increase customers, 
 
 * __Navigation Bar__
 
-    
-      The Navigation Bar would located at the top on the page and will have 3 links to the Home page, Gallery and Booking page. Also the page logo will be a link to the home page from any page visited.
+    The Navigation Bar would located at the top on the page and will have 3 links to the Home page, Gallery and Booking page. Also the page logo will be a link to the home page from any page visited.
         
 
  * __Home Page Image__
 
-       The home page image which was selected shows the enjoyment and competitiveness of karting.
+      The home page image which was selected shows the enjoyment and competitiveness of karting.
 
 * __First Paragraph__
 
-      The first paragraph follows straight after the home image this paragraph is short and snapping but will get the user excited.
+  The first paragraph follows straight after the home image this paragraph is short and snapping but will get the user excited.
 
 * __Track Image__
 
-      The Track image will then follow, this is for the user to get a visual on the track and build on the excitment.
+  The Track image will then follow, this is for the user to get a visual on the track and build on the excitment.
 
 * __Track Details__
 
-      Added on top on the track image there is be a title of track details and at the bottom of the image will be 3 boxes which will include small snappy sentences explaining track distance, amount of turns and speed of the karts.
+  Added on top on the track image there is be a title of track details and at the bottom of the image will be 3 boxes which will include small snappy sentences explaining track distance, amount of turns and speed of the karts.
 
 * __Book Button link__
 
-      The Track image and track details will then be followed by a Book Now button which will send the user straight to the booking page.
+  The Track image and track details will then be followed by a Book Now button which will send the user straight to the booking page.
 
 * __Footer__
-
-      The footer of the page will include links to social media websites
+      
+  The footer of the page will include links to social media websites
 
 * __Gallery Page__
 
-      The gallery page will have 3 images which will give more information about the track while showing off the different turns and excitement of the track and will have the book now button showing after the 3rd image.
+  The gallery page will have 3 images which will give more information about the track while showing off the different turns and excitement of the track and will have the book now button showing after the 3rd image.
 
 * __Book Now Page__
 
-      The Book Now page will start off with another paragraph will will increased excited in booking a season.
+  The Book Now page will start off with another paragraph will will increased excited in booking a season.
 
 * __Booking Form__
 
-      The booking form will have a more focus images of the track but will keep excitment up while completed the booking information.
+  The booking form will have a more focus images of the track but will keep excitment up while completed the booking information.
       
-      This will be followed by a Form on top of the image which we will require First name, Last Name, Email, Number of Drivers, date, time and submited button.
+  This will be followed by a Form on top of the image which we will require First name, Last Name, Email, Number of Drivers, date, time and submited button.
 
 * __Where to Find us__
 
-      After the booking form there will be a where to find us section and this will show where we are on the map and also have the address, opening times, phone number and email address to be easily contacted will any questions.
+  After the booking form there will be a where to find us section and this will show where we are on the map and also have the address, opening times, phone number and email address to be easily contacted will any questions.
 
 
 ## Future Features
@@ -97,7 +96,7 @@ This website is aimed to bring an online presence that will increase customers, 
 
 ## Typography and Color Scheme
 
-The site will use the font of ROBOTO throughout the website as it has many different styles.
+The site will use the font of ROBOTO throughout the website.
 
 The Color Scheme will include 3 main HEX colours -
   
@@ -138,12 +137,17 @@ All wireframes were made using [Figma](https://www.figma.com/)
 
 
 ---
-
 ## Technology
-
-Used bootstrap (nav and button)
-font awesome for icon
-google fonts
+* __HTML__
+* __CSS__
+* __Hover.css__
+* __Bootstrap__
+* __Flexbox__
+* __Font Awesome for icons__
+* __Google Fonts__
+* __Git__
+* __GitHub__
+* __Figma__
 
 ## Testing
 
@@ -153,35 +157,56 @@ google fonts
 
 ### Fixed Bugs
 
+
+
 ### Supported Screens and Browsers
 
 ## Deployment
 
-### Via Gitpod
+### Github Pages
 
-### Via Github Pages
+The Site was deployed via GitHub Pages.
+
+1. Go to GitHub.
+2. Find RacingLine repository or [Click Here](https://github.com/leellismith/RacingLine).
+3. Go to settings [Click Here](https://github.com/leellismith/RacingLine/settings).
+4. On the left hand side of the General tab click on Pages [Cllck Here](https://github.com/leellismith/RacingLine/settings/pages).
+5. In Build and deployment, select Deploy from a branch.
+6. Then In branch select the Main tab and the /(Root) tab.
+7. Then click save and wait for the deployment to go live.
 
 ## Credits
 
-Images used on home page are taken from (https://unsplash.com/)
-![First Picture](assets/images/alexander-andrews-17qgMrxcvGs-unsplash.jpg)
-![Second Picture](assets/images/uavwright-productions-vdoFJJgL24Q-unsplash.jpg)
+### __Images used on home page are taken from__ (https://unsplash.com/)
+#### Home Image
+![Home Picture](assets/images/alexander-andrews-17qgMrxcvGs-unsplash.jpg)
+#### Track Image
+![Track Picture](assets/images/uavwright-productions-vdoFJJgL24Q-unsplash.jpg)
+#### 1st Gallery Image
 ![Gallery First Picture](assets/images/appic-nCrQ8sMa0c8-unsplash.jpg)
+#### 2nd Gallery Image
 ![Gallery Second Picture](assets/images/nicolas-peyrol-cWT6sI20RdU-unsplash.jpg)
-Image used from (https://www.pexels.com)
+#### Booking Track Image
+![Booking Image](assets/images/uavwright-productions-8d8atWyhumM-unsplash.jpg)
+### __Image used from__ (https://www.pexels.com)
+#### Third Gallery Image
 ![Gallery Third Picture](assets/images/pexels-markie-mad-14194446.jpg)
 
 
-Navbar taken from (https://getbootstrap.com/docs/5.3/components/navbar/)
 
-Botton taken from (https://getbootstrap.com/docs/5.3/components/buttons/)
+#### __Navbar taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/)__
 
-animation taken from (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)
+#### __Botton taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/)__
+
+#### __Animation taken from [Code institute - Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)__
+
+#### __Icons taken from [Fontawesome](https://fontawesome.com/icons)__
 
 
-## Notes
-I wanted to remove the orange border when the input field was selected and found out how to do it on (https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)
+## Acknowledgements
 
-I wanted to add a label input where you could select an amount for people booking (<https://getbootstrap.com/docs/5.3/forms/overview/>)
+* I wanted to remove the orange border when the input field was selected and found out how to do it on (https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)
 
-I Had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
+* I wanted to add a label input where you could select an amount for people booking (<https://getbootstrap.com/docs/5.3/forms/overview/>)
+
+ * I Had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
