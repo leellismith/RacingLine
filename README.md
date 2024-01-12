@@ -149,13 +149,51 @@ All wireframes were made using [Figma](https://www.figma.com/)
 * __GitHub__
 * __Figma__
 
-## Testing
+# Testing
 
-### Code Validation
+## Code Validation
+
+### __W3 Validator__
+
+#### __Home Page__
+
+![Home Page Validation](assets/images/testing/Iindexw3validator.JPG)
+
+#### __Gallery Page__
+
+![Gallery Page Validation](assets/images/testing/galleryw3validtor.JPG)
+
+#### __Booking Page__
+
+![Booking Page Validation](assets/images/testing/bookw3validtor.JPG)
+
+
+#### __CSS Validation__
+
+![CSS Validation](assets/images/testing/cssvalidtor.JPG)
+
+### __Lighthouse Testing__
+
+### __Home Page Testing__
+
+![first Home Page Testing](assets/images/testing/firstlighthousetestindex.JPG)
+
+    As you can see from the testing images the home page performance was at 86 after 
+    looking in to the issue it seems that this was because of the image file sizes.
+    After compressing the image the performace and after added meta description both scores 
+    have improved as you can see in the second lighthouse test below.
+
+ ![Second Home Page Testing](assets/images/testing/secondlighthousetestindex.JPG)
+
 
 ### Test Cases
 
 ### Fixed Bugs
+
+    Fixed isses with image scaling.
+
+    I Had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
+
 
 
 
@@ -205,8 +243,6 @@ The Site was deployed via GitHub Pages.
 
 ## Acknowledgements
 
-* I wanted to remove the orange border when the input field was selected and found out how to do it on (https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)
+* __I wanted to remove the orange border when the input field was selected and found out how to do it on [W3docs](https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)__
 
-* I wanted to add a label input where you could select an amount for people booking (<https://getbootstrap.com/docs/5.3/forms/overview/>)
-
- * I Had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
+* __I wanted to add a label input where you could select an amount for people booking (<https://getbootstrap.com/docs/5.3/forms/overview/>)__

@@ -108,8 +108,8 @@ i:hover {
 
 /*-------------------------------------- Images */
 
-.home-image {
-    background: url("../images/alexander-andrews-17qgMrxcvGs-unsplash.jpg");
+.hero-image {
+    background: url("../images/heroimage.jpg");
     width: 100%;
     height: 40vh;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ i:hover {
 }
 
 .track-image {
-    background: url("../images/uavwright-productions-vdoFJJgL24Q-unsplash.jpg");
+    background: url("../images/trackimage.jpg");
     width: 100%;
     height: 40vh;
     background-position: center;
@@ -237,15 +237,8 @@ i:hover {
 .button-view {
     margin-top: 5px;
     --bs-btn-padding-x: 70px;
-    --bs-btn-font-weight: bold;
+    --bs-btn-font-weight: 500;
 }
-
-button,
-select {
-    text-transform: uppercase;
-}
-
-
 
 /*-------------------------------------- footer */
 
@@ -399,7 +392,7 @@ input#date {
 /*-------------------------------------- Media*/
 
 @media only screen and (min-width: 768px) {
-    .home-image {
+    .hero-image {
         height: 60vh;
     }
     .home-image-box {
@@ -441,7 +434,6 @@ input#date {
         font-size: 1.2rem;
     }
     .button-view {
-        margin: 0.7vh 0 0.7vh 0;;
         font-size: 1.2rem;
     }
     .book-button {
