@@ -1,8 +1,15 @@
-# RACING LINE
+<h1 align="center">RACING LINE</h1>
+
+<h2 align="center"> Go Karting website based in Swansea, South Wales.</h2>
+
+<h2 align="center">Milestone Project 1 - Lee Smith</h2>
+
+![Am I Responsive Image](assets/images/testing/amiresponsive.JPG)
+---
 
 # UXD
 
-## Purpose of the Project
+# Purpose of the Project
 
 I have decided to create a website base on a go karting company creating thier first website.
 
@@ -10,7 +17,7 @@ I am aiming to create a website that feels up-to-date with mobile first design a
 
 This website is aimed to bring an online presence that will increase customers, showcase the facility.
 
-## User Stories 
+# User Stories 
 
 * As a customer, I would like to be able to visit and navigate through the website.
 * As a customer, I would like to be able to easily book online.
@@ -19,7 +26,7 @@ This website is aimed to bring an online presence that will increase customers, 
 * As a customer, I would like to be able to locate where the track is.
 * As a customer, I would like to be able to contact you by email / phone / social media.
 
-### Steps to be taken
+## Steps to be taken
 
 1. Research websites.
 2. Sketch up designs.
@@ -31,7 +38,7 @@ This website is aimed to bring an online presence that will increase customers, 
 8. Test Website.
 9. Deploy Website.
   
-## Features
+# Features
 
 * __Navigation Bar__
 
@@ -86,7 +93,7 @@ This website is aimed to bring an online presence that will increase customers, 
 * Login Option.
 * Leaderboard Page.
 * Memebership Page.
-* Compition Page.
+* Competition Page.
 * Food and Drinks Page.
 * Add Video Content (Live stream of the track).
 * Downloadable Health and Safety Form.
@@ -94,7 +101,7 @@ This website is aimed to bring an online presence that will increase customers, 
 * Testimonials section
 * Dark Mode
 
-## Typography and Color Scheme
+# Typography and Color Scheme
 
 The site will use the font of ROBOTO throughout the website.
 
@@ -111,33 +118,33 @@ With 2 additional HEX colours -
 
 These colours work well together and will make the website clear and visually appealing.
 
-## Wireframes
+# Wireframes
 
 All wireframes were made using [Figma](https://www.figma.com/)
 
 ----
 
-### Mobile Wireframe
+## Mobile Wireframe
 
 ![Mobile Wireframe](assets/images/wireframes/mobilewireframe.png)
 
 
 ---
 
-### Tablet Wireframe
+## Tablet Wireframe
 
 ![Tablet Wireframes](assets/images/wireframes/tabletwireframe.png)
 
 
 ---
 
-### Desktop Wireframe
+## Desktop Wireframe
 
 ![Desktop Wireframes](assets/images/wireframes/desktopwireframe.png)
 
 
 ---
-## Technology
+# Technology
 * __HTML__
 * __CSS__
 * __Hover.css__
@@ -176,7 +183,7 @@ All wireframes were made using [Figma](https://www.figma.com/)
 
 ### __Home Page Testing__
 
-![first Home Page Testing](assets/images/testing/firstlighthousetestindex.JPG)
+![First Home Page Testing](assets/images/testing/firstlighthousetestindex.JPG)
 
     As you can see from the testing images the home page performance was at 86 after 
     looking in to the issue it seems that this was because of the image file sizes.
@@ -185,14 +192,37 @@ All wireframes were made using [Figma](https://www.figma.com/)
 
  ![Second Home Page Testing](assets/images/testing/secondlighthousetestindex.JPG)
 
+### __Gallery Page Testing__
 
-### Test Cases
+![First Gallery Page Testing](assets/images/testing/galleryfirsttest.JPG)
 
-### Fixed Bugs
+    As you can from the the testing on the gallery page the performance is a little 
+    low as the image size where too large. After compressing images this has improved the performance.
 
-    Fixed isses with image scaling.
+### __Booking Page Testing__
 
-    I Had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
+![Booking Page Testing](assets/images/testing/bookingfirsttest.JPG)
+
+    The booking page testing was very good from the start but could be improved once again by
+    compressing the image file.
+
+![Second Booking Page Testing](assets/images/testing/secondbookingtest.JPG)
+
+# Test Cases
+
+# Fixed Bugs
+
+  * Fixed isses with image scaling in gallery by added media query at different sizes.
+
+  * I Had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
+
+ * Had a bug with the Form where on the smaller screens it would start to overlap.
+
+ ![Form Bug](assets/images/testing/formbug.JPG)
+
+* I fixed this issue by adding padding to the bottom of the form.
+    
+
 
 
 
@@ -201,7 +231,7 @@ All wireframes were made using [Figma](https://www.figma.com/)
 
 ## Deployment
 
-### Github Pages
+## Github Pages
 
 The Site was deployed via GitHub Pages.
 
@@ -213,35 +243,37 @@ The Site was deployed via GitHub Pages.
 6. Then In branch select the Main tab and the /(Root) tab.
 7. Then click save and wait for the deployment to go live.
 
-## Credits
+---
+
+# Credits
 
 ### __Images used on home page are taken from__ (https://unsplash.com/)
-#### Home Image
-![Home Picture](assets/images/alexander-andrews-17qgMrxcvGs-unsplash.jpg)
-#### Track Image
-![Track Picture](assets/images/uavwright-productions-vdoFJJgL24Q-unsplash.jpg)
-#### 1st Gallery Image
+## Home Image
+![Home Picture](assets/images/heroimage.jpg)
+## Track Image
+![Track Picture](assets/images/trackimage.jpg)
+## 1st Gallery Image
 ![Gallery First Picture](assets/images/appic-nCrQ8sMa0c8-unsplash.jpg)
-#### 2nd Gallery Image
+## 2nd Gallery Image
 ![Gallery Second Picture](assets/images/nicolas-peyrol-cWT6sI20RdU-unsplash.jpg)
-#### Booking Track Image
+## Booking Track Image
 ![Booking Image](assets/images/uavwright-productions-8d8atWyhumM-unsplash.jpg)
 ### __Image used from__ (https://www.pexels.com)
-#### Third Gallery Image
+## Third Gallery Image
 ![Gallery Third Picture](assets/images/pexels-markie-mad-14194446.jpg)
 
 
 
-#### __Navbar taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/)__
+### __Navbar taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/)__
 
-#### __Botton taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/)__
+### __Botton taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/)__
 
-#### __Animation taken from [Code institute - Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)__
+### __Animation taken from [Code institute - Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)__
 
-#### __Icons taken from [Fontawesome](https://fontawesome.com/icons)__
+### __Icons taken from [Fontawesome](https://fontawesome.com/icons)__
 
 
-## Acknowledgements
+# Acknowledgements
 
 * __I wanted to remove the orange border when the input field was selected and found out how to do it on [W3docs](https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)__
 
