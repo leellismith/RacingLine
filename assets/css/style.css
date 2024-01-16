@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Roboto:wght@300;400;500&display=swap');
 
 /*-------------------------------------- Font*/
 
@@ -29,24 +29,23 @@ h5 {
 .nav-color {
     color: #008ae7;
     font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat Subrayada', sans-serif;
     --bs-nav-link-hover-color: #e75100;
 }
 
 .title-color {
     color: #008ae7;
     font-size: 2.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-family: 'Montserrat Subrayada', sans-serif;
     --bs-navbar-brand-hover-color: #e75100;
 }
 
 .section-header{
     color: #008ae7;
-    font-size: 1.75rem;
+    /* font-size: 1.6rem; */
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 div p {
@@ -60,7 +59,8 @@ div p {
 
 .footer-sizing {
     font-size: 1.2rem;
-    margin: 0px
+    margin: 0px;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 i:hover {
@@ -69,8 +69,9 @@ i:hover {
 
 .track {
     color: #FDFDFD;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     padding: 10px;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .findus {
@@ -95,7 +96,7 @@ i:hover {
 
 .findus-bg {
     background-color: #01375e;
-    height: 6vh;
+    height: 7vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,20 +223,18 @@ i:hover {
 
 .book-button {
     width: 100%;
-    height: 50px;
+    height: 6vh;
     margin: 0;
-}
-
-.book-button p {
-    font-size: 16px;
-    padding-top: 2px;
-    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .button-view {
-    margin-top: 5px;
+    font-size: 1.2rem;
     --bs-btn-padding-x: 70px;
-    --bs-btn-font-weight: 500;
 }
 
 /*-------------------------------------- footer */
@@ -275,7 +274,8 @@ footer {
 
 .gallery-title {
     color: #fdfdfd;
-    padding: 10px;
+    padding-top: 0.3rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 /*-------------------------------------- Book Now Page*/
@@ -283,6 +283,7 @@ footer {
 .book-header {
     color: #FDFDFD;
     padding-top: 0.3rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 
@@ -301,6 +302,7 @@ footer {
 
 .booking-title {
     color: #FDFDFD;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .booking-title h2 {
@@ -311,8 +313,10 @@ footer {
 /*-------------------------------------- form*/
 
 form {
-    padding-left: 3vw;
     padding-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 label {
@@ -344,7 +348,7 @@ input#adults {
 }
 
 .form-sizing {
-    width: 45%;
+    width: 55%;
     text-transform: none;
     padding-left: 5px;
 }
@@ -370,7 +374,7 @@ input#date {
 }
 
 .btn-size {
-    width: 45%;
+    width: 55%;
     margin-top: 1.5vh;
 }
 
@@ -378,6 +382,7 @@ input#date {
 
 .findus h4 {
     margin: 0;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .findus-spacing {
@@ -411,6 +416,17 @@ input#date {
         min-height: 70vh;
         background-position: center 20%;
     }
+    .section-header,
+    .track h2,
+    .gallery-title,
+    .book-header h2,
+    .booking-title h2,
+    .findus h4   {
+        font-size: 2.5rem;
+    }
+    .book-button {
+        height: 7vh;
+    }
     .btn-size {
         width: 30%;
     }
@@ -423,9 +439,6 @@ input#date {
     .form-label {
         margin: 1.5vh 0 0 0;
     }
-    /* form {
-        margin-top: 5vh;
-    } */
     .btn-size {
         margin-top: 3vh;
     }
@@ -433,10 +446,7 @@ input#date {
         font-size: 1.2rem;
     }
     .button-view {
-        font-size: 1.2rem;
-    }
-    .book-button {
-        height: 5vh;
+        font-size: 1.5rem;
     }
     .footer-sizing {
         font-size: 1.5rem;

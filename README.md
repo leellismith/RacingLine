@@ -103,7 +103,7 @@ This website is aimed to bring an online presence that will increase customers, 
 
 # Typography and Color Scheme
 
-The site will use the font of ROBOTO throughout the website.
+The site will use the font of Montserrat Subrayada and ROBOTO throughout the website.
 
 The Color Scheme will include 3 main HEX colours -
   
