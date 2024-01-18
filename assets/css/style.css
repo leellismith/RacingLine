@@ -42,7 +42,6 @@ h5 {
 
 .section-header{
     color: #008ae7;
-    /* font-size: 1.6rem; */
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -69,7 +68,6 @@ i:hover {
 
 .track {
     color: #FDFDFD;
-    /* font-size: 1.2rem; */
     padding: 10px;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
@@ -351,6 +349,7 @@ input#adults {
     width: 55%;
     text-transform: none;
     padding-left: 5px;
+    text-align: center;
 }
 
 .form-label {
