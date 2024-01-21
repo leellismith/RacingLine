@@ -297,6 +297,12 @@ __The Site was deployed via GitHub Pages.__
 
 ---
 
+## Making a Clone
+
+
+
+__
+
 # Credits
 
 ### __Images used on home page are taken from__ (https://unsplash.com/)
