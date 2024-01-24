@@ -4,7 +4,7 @@
 
 <h2 align="center">Milestone Project 1 - Lee Smith</h2>
 
-![Am I Responsive Image](readme.docs/testing/amiresponsive.JPG)
+![Am I Responsive Image](readme-docs/testing/amiresponsive.JPG)
 ---
 
 ## <p align='center'>[Racing Line Live Site](https://leellismith.github.io/RacingLine/)
@@ -130,21 +130,21 @@ All wireframes were made using [Figma](https://www.figma.com/)
 
 ## Mobile Wireframe
 
-![Mobile Wireframe](readme.docs/wireframes/mobilewireframe.png)
+![Mobile Wireframe](readme-docs/wireframes/mobilewireframe.png)
 
 
 ---
 
 ## Tablet Wireframe
 
-![Tablet Wireframes](readme.docs/wireframes/tabletwireframe.png)
+![Tablet Wireframes](readme-docs/wireframes/tabletwireframe.png)
 
 
 ---
 
 ## Desktop Wireframe
 
-![Desktop Wireframes](readme.docs/wireframes/desktopwireframe.png)
+![Desktop Wireframes](readme-docs/wireframes/desktopwireframe.png)
 
 
 ---
@@ -168,52 +168,96 @@ All wireframes were made using [Figma](https://www.figma.com/)
 
 #### __Home Page__
 
-![Home Page Validation](readme.docs/testing/Iindexw3validator.JPG)
+![Home Page Validation](readme-docs/testing/Iindexw3validator.JPG)
 
 #### __Gallery Page__
 
-![Gallery Page Validation](readme.docs/testing/galleryw3validtor.JPG)
+![Gallery Page Validation](readme-docs/testing/galleryw3validtor.JPG)
 
 #### __Booking Page__
 
-![Booking Page Validation](readme.docs//testing/bookw3validtor.JPG)
+![Booking Page Validation](readme-docs//testing/bookw3validtor.JPG)
 
 
 #### __CSS Validation__
 
-![CSS Validation](readme.docs/testing/cssvalidtor.JPG)
+![CSS Validation](readme-docs/testing/cssvalidtor.JPG)
 
 ### __Lighthouse Testing__
 
 ### __Home Page Testing__
 
-![First Home Page Testing](readme.docs/testing/firstlighthousetestindex.JPG)
+![First Home Page Testing](readme-docs/testing/firstlighthousetestindex.JPG)
 
     As you can see from the testing images the home page performance was at 86 after 
     looking in to the issue it seems that this was because of the image file sizes.
     After compressing the image the performace and after added meta description both scores 
     have improved as you can see in the second lighthouse test below.
 
- ![Second Home Page Testing](readme.docs/testing/secondlighthousetestindex.JPG)
+ ![Second Home Page Testing](readme-docs/testing/secondlighthousetestindex.JPG)
 
 ### __Gallery Page Testing__
 
-![First Gallery Page Testing](readme.docs/testing/galleryfirsttest.JPG)
+![First Gallery Page Testing](readme-docs/testing/galleryfirsttest.JPG)
 
     As you can from the the testing on the gallery page the performance is a little 
     low as the image size where too large. After compressing images this has improved the performance.
 
 ### __Booking Page Testing__
 
-![Booking Page Testing](readme.docs/testing/bookingfirsttest.JPG)
+![Booking Page Testing](readme-docs/testing/bookingfirsttest.JPG)
 
     The booking page testing was very good from the start but could be improved once again by
     compressing the image file.
 
-![Second Booking Page Testing](readme.docs/testing/secondbookingtest.JPG)
+![Second Booking Page Testing](readme-docs/testing/secondbookingtest.JPG)
 
 
 # Test Cases
+
+## User Experience 
+
+### Home Page
+    When user first enters website the will first see the Navigation bar with the title of Racing Line and then 3 links to go through the website pages.
+
+    Then the user will view the Hero Image.
+
+    This will be followed by a Welcome to Racing Line header with a paragraph.
+
+    After this the user will visit Track Details section which they will be able to view information about the track.
+
+    A Book Now link with a red background will follow which will send the user straight to the booking page.
+
+    Lastly the Home page will have a footer with icons link which will send the user to social media sites.
+
+### Gallery Page
+
+    When user goes to the Gallery Page they would be greeted by Gallery Header.
+
+    The user will be able to scroll down through the gallery to view images.
+
+    A Book Now link with a red background will follow which will send the user straight to the booking page.
+
+    Lastly the Home page will have a footer with icons link which will send the user to social media sites.
+
+### Booking Page
+
+    Once user enters Booking page they will be greeted by the Book Now header which will have a paragraph below.
+
+    The user will then find the form to be completed with required fields and a book button.
+
+    After the form, the user will find a Where to find us section which will have a picture of the location and below that there will be the address, opening times, phone number and email.
+
+    Lastly the Home page will have a footer with icons link which will send the user to social media site.
+
+
+
+
+    
+
+
+
+
 
  
   | Case Testing Links | Result
@@ -251,16 +295,18 @@ All wireframes were made using [Figma](https://www.figma.com/)
 
   * Fixed isses with image scaling in gallery by added media query at different sizes.
 
-  * I Had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
-
+  * Had issues with Book Now button found on Home and Gallery page where the white outline of the button would extend over the red background on smaller screens. I fixed this by setting the height from PX to VH.
+___
+  * I had issues with the three boxes in track details. after researching on (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and trial and error on developer tools, I managed to get the boxes to be reactive with enlarging website.
+___
  * Had a bug with the Form where on the smaller screens it would start to overlap.
 
- ![Form Bug](readme.docs/testing/formbug.JPG)
+ ![Form Bug](readme-docs/testing/formbug.JPG)
 
 * I fixed this issue by adding padding to the bottom of the form.
     
 
-
+___
 
 
 
@@ -288,20 +334,40 @@ Browsers | Supported|
 __The Site was deployed via GitHub Pages.__
 
 >1. Go to GitHub.
->>2. Find RacingLine repository or [Click Here](https://github.com/leellismith/RacingLine).
->>>3. Go to settings [Click Here](https://github.com/leellismith/RacingLine/settings).
->>>>4. On the left hand side of the General tab click on Pages [Cllck Here](https://github.com/leellismith/RacingLine/settings/pages).
->>>>>5. In Build and deployment, select Deploy from a branch.
->>>>>>6. Then In branch select the Main tab and the /(Root) tab.
->>>>>>>7. Then click save and wait for the deployment to go live.
+>2. Find RacingLine repository or [Click Here](https://github.com/leellismith/RacingLine).
+>3. Go to settings [Click Here](https://github.com/leellismith/RacingLine/settings).
+>4. On the left hand side of the General tab click on Pages [Cllck Here](https://github.com/leellismith/RacingLine/settings/pages).
+>5. In Build and deployment, select Deploy from a branch.
+>6. Then In branch select the Main tab and the /(Root) tab.
+>7. Then click save and wait for the deployment to go live.
 
 ---
 
-## Making a Clone
+## Gitpod.io Deployment
+
+>1. Go to github.
+>2. Find RacingLine repository or [Click Here](https://github.com/leellismith/RacingLine).
+>3. Click on the green <> Code button.
+>4. In the dropdown you will find the HTTP url. Copy that.
+>5. Load up [Gitpod](https://gitpod.io/)
+>6. Once logged in, Select Orange new workspace button.
+>7. Click on select a respository.
+>8. Paste in the repository. See steps 1 - 4.
+>9. Click continue.
+>10. You workspace has been set up.
+___
+ __Making a Clone__
+
+ >1. Follow steps 1 - 4 from the Gitpod.io deployment steps.
+ >2. Open your Terminal.
+ >3. Select a location where you would like the clone to save to.
+ >4. Type __git clone__ and paste the respository.
+ ![Clone image - git clone https://github.com/leellismith/RacingLine.git](readme.docs/testing/githubclone.png)
+ >5. Press Enter to create your local clone.
 
 
 
-__
+___
 
 # Credits
 
@@ -321,18 +387,18 @@ __
 ![Gallery Third Picture](assets/images/galleryimg3.jpg)
 
 
+___
+### __Navbar taken from [Bootstrap.](https://getbootstrap.com/docs/5.3/components/navbar/)__
+___
+### __Botton taken from [Bootstrap.](https://getbootstrap.com/docs/5.3/components/buttons/)__
+___
+### __Animation taken from [Code institute - Love Running.](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)__
+___
+### __Icons taken from [Fontawesome.](https://fontawesome.com/icons)__
+___
 
-### __Navbar taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/)__
-
-### __Botton taken from [Bootstrap](https://getbootstrap.com/docs/5.3/components/buttons/)__
-
-### __Animation taken from [Code institute - Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)__
-
-### __Icons taken from [Fontawesome](https://fontawesome.com/icons)__
+### __I wanted to remove the orange border when the input field was selected and found out how to do it on [W3docs.](https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)__
+___
+### __I wanted to add a label input where you could select an amount for people booking and found how to d this on[getbootstrap.](https://getbootstrap.com/docs/5.3/forms/overview)__
 
 
-# Acknowledgements
-
-* __I wanted to remove the orange border when the input field was selected and found out how to do it on [W3docs](https://www.w3docs.com/snippets/css/how-to-remove-and-style-the-border-outline-around-text-input-boxes-in-google-chrome.html)__
-
-* __I wanted to add a label input where you could select an amount for people booking (<https://getbootstrap.com/docs/5.3/forms/overview/>)__

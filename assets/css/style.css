@@ -105,7 +105,7 @@ i:hover {
 }
 
 /*-------------------------------------- Images */
-
+/*----------  Hero image has animation that zooms in*/
 .hero-image {
     background: url("../images/heroimage.jpg");
     width: 100%;
@@ -356,7 +356,7 @@ input#adults {
 .form-label {
     margin: 0;
 }
-
+/* Webkit used to invert the calendar colour from Black to White*/
 ::-webkit-calendar-picker-indicator {
     filter: invert(1);
 }
